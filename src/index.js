@@ -10,8 +10,8 @@ const App = () => {
         <AppHeader />
         <SearchPanel />
         <ToDoList />
-    </div>)
-}
+    </div>);
+};
 
 ReactDOM.render(<App />,
     document.getElementById('root'));
