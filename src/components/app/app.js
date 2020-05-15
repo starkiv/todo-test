@@ -7,13 +7,15 @@ import ItemStatusFilter from '../item-status-filter';
 
 import './app.css';
 
-const todoData = [
-    { label: "Learn React", important: true, id:1 },
-    { label: "Learn English", important: false, id: 2 },
-    { label: "Dring tea", important: false, id: 3 },
-];
-
 const App = () => {
+    
+    const todoData = [
+        { label: "Learn React", important: false, id:1 },
+        { label: "Learn English", important: true, id: 2 },
+        { label: "Dring tea", important: false, id: 3 },
+    ];
+
+
     return (
         <div className="todo-app">
             <AppHeader toDo={1} done={3} />

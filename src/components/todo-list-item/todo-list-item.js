@@ -7,8 +7,8 @@ export default class TodoListItem extends Component {
         super();
 
         this.onLabelClick = () => {
-            console.log(`Done: ${this.props.label}`);
-        };
+            console.log( `Use: ${this.props.label}` )
+        }
     }
 
     render() {
@@ -23,9 +23,9 @@ export default class TodoListItem extends Component {
         return (
             <span className="todo-list-item">
                 <span
-                    className="todo-list-item" 
-                    style = { style }
-                    onClick = { this.onLabelClick } > 
+                    className="todo-list-item-label" 
+                    style={style}
+                    onClick={ this.onLabelClick } > 
                     { label } 
                </span>
     
