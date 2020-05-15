@@ -20,5 +20,5 @@
 
 .todo-list-item.important .todo-list-item-label {
     font-weight: bold;
-    color: orange;
+    color: rgb(108, 181, 206);
 }
