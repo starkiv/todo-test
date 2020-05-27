@@ -17,7 +17,6 @@ const ToDoList = ({todos, onDeleted}) => {
         );
     });
 
-
     return (
         <ul className="list-group todo-list">
             { elements }
